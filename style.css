@@ -1,0 +1,73 @@
+/* Ensuring the body and html cover full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background image for the entire body */
+body {
+    background-image: url('https://as1.ftcdn.net/v2/jpg/05/57/44/90/1000_F_557449089_RGXu9WrYk95PB1lRO7wrHv99wDIwA64A.jpg');
+    background-size: cover;  /* Ensure the image covers the entire page */
+    background-position: center;  /* Centers the image */
+    background-attachment: fixed;  /* Keeps the image fixed while scrolling */
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    font-family: Arial, sans-serif;
+    color: white; /* Change text color to white to stand out against the background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Container to hold the content */
+.container {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for content */
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h2, h3, h4 {
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1em;
+}
